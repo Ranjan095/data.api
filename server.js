@@ -1,10 +1,3 @@
-# data.api
-
-// npm init -y
-// npm i json-server
-// create server.js
-// copy template to server.js
-// node server.js
 const PORT = process.env.PORT || 3000;
 const path = require("path");
 const jsonServer = require("json-server");
@@ -17,7 +10,3 @@ server.use("", router);
 server.listen(PORT, () =>
   console.log(`JSON Server is running on port ${PORT}`)
 );
-// To access database(i.e. db.json) we need ans API so:-
-// 1. BASE URL : `http://localhost:3000/`
-// 2. Endpoint : `/api/todo`
-// 3. Query param :
